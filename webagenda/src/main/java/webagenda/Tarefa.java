@@ -14,6 +14,7 @@ public class Tarefa {
 		@Id
 		@GeneratedValue
 		private Long id;
+		
 	    private String descricao;
 	    private boolean finalizado;
 	    
