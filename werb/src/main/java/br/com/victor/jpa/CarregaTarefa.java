@@ -10,7 +10,7 @@ public class CarregaTarefa {
     public static void main(String[] args) {
 
         EntityManagerFactory factory = Persistence.
-                createEntityManagerFactory("tarefas");
+               createEntityManagerFactory("tarefas");
         EntityManager manager = factory.createEntityManager();
 
         Tarefa encontrada = manager.find(Tarefa.class, 1L);
