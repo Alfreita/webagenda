@@ -13,7 +13,7 @@ public class AdicionaTarefa {
         public static void main(String[] args) {
 
             Tarefa tarefa = new Tarefa();
-            tarefa.setDescricao("birl");
+            tarefa.setDescricao("eita");
             tarefa.setFinalizado(true);
             tarefa.setDataFinalizacao(Calendar.getInstance());
 

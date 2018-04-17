@@ -10,8 +10,14 @@ public class Tarefa {
     @Id
     @GeneratedValue
     private Long id;
+
+    @Column
     private String descricao;
+
+    @Column
     private boolean finalizado;
+
+    @Column
     @Temporal(TemporalType.DATE)
     private Calendar dataFinalizacao;
 

@@ -23,7 +23,9 @@ public class BuscaTarefas {
         List<Tarefa> lista = query.getResultList();
 
         for (Tarefa t : lista) {
-            System.out.println(t.getDescricao());
+         //   System.out.println(t.getId());
+            System.out.println(t.getId()+ "  " +t.getDescricao());
+           // System.out.println(t.getDataFinalizacao());
         }
 
         manager.close();
